@@ -11,6 +11,7 @@
 | 💸 PromptPay QR Generator | สร้าง QR Code รับเงินผ่าน PromptPay | [เปิด](https://krirk0137.github.io/KrirkSpeedPromptPay/) · [code](https://github.com/krirk0137/KrirkSpeedPromptPay) |
 | 📄 Resume / Portfolio | เว็บเรซูเม่สองภาษา | [เปิด](https://krirk0137.github.io/Resume/) · [code](https://github.com/krirk0137/Resume) |
 | ⚔️ PoE2 Gearing Sheet | ไกด์อัปเกรดของ Path of Exile 2 | [เปิด](https://krirk0137.github.io/poe2_krirk_gear_change/) · [code](https://github.com/krirk0137/poe2_krirk_gear_change) |
+| 💊 Vitamin Routine | ตารางกินวิตามิน + เทียบคำแนะนำ AI | [เปิด](https://krirk0137.github.io/VitaminRoutine/) · [code](https://github.com/krirk0137/VitaminRoutine) |
 
 ## โปรเจกต์อื่นๆ
 
