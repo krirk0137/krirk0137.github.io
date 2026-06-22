@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Krirk0137 Hub — รวมเว็บและโปรเจกต์</title>
+<meta name="description" content="หน้ารวมเว็บแอปและโปรเจกต์ทั้งหมดของ krirk0137" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+<style>
+  :root {
+    --bg: #0d1117;
+    --bg-soft: #161b22;
+    --card: #1c2230;
+    --card-hover: #232b3d;
+    --border: #2a3242;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --accent2: #7ee787;
+    --shadow: 0 8px 30px rgba(0,0,0,.35);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Sarabun", Roboto, Helvetica, Arial, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(88,166,255,.15), transparent),
+      radial-gradient(900px 500px at -10% 10%, rgba(126,231,135,.10), transparent),
+      var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  /* Header */
+  header { padding: 72px 0 40px; text-align: center; }
+  .avatar {
+    width: 96px; height: 96px; border-radius: 50%;
+    border: 3px solid var(--border); box-shadow: var(--shadow);
+    margin-bottom: 18px;
+  }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.02em; }
+  h1 .grad {
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin-top: 8px; }
+  .links { margin-top: 22px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 18px; border-radius: 999px; text-decoration: none;
+    font-weight: 600; font-size: .9rem; border: 1px solid var(--border);
+    color: var(--text); background: var(--bg-soft); transition: .2s;
+  }
+  .btn:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .btn.primary { background: var(--accent); color: #06121f; border-color: var(--accent); }
+
+  /* Sections */
+  section { padding: 32px 0; }
+  .section-title {
+    display: flex; align-items: baseline; gap: 12px; margin-bottom: 20px;
+  }
+  .section-title h2 { font-size: 1.35rem; }
+  .section-title span { color: var(--muted); font-size: .9rem; }
+
+  /* Grid */
+  .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 22px; display: flex; flex-direction: column; transition: .2s;
+    position: relative; overflow: hidden;
+  }
+  .card::before {
+    content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2)); opacity: 0; transition: .2s;
+  }
+  .card:hover { background: var(--card-hover); border-color: #3a4356; transform: translateY(-4px); box-shadow: var(--shadow); }
+  .card:hover::before { opacity: 1; }
+  .card .emoji { font-size: 1.8rem; margin-bottom: 10px; }
+  .card h3 { font-size: 1.15rem; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: .92rem; flex: 1; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; margin: 14px 0; }
+  .badge {
+    font-size: .72rem; padding: 3px 10px; border-radius: 999px;
+    background: rgba(88,166,255,.12); color: var(--accent); border: 1px solid rgba(88,166,255,.25);
+  }
+  .badge.live { background: rgba(126,231,135,.12); color: var(--accent2); border-color: rgba(126,231,135,.3); }
+  .card-actions { display: flex; gap: 10px; margin-top: auto; }
+  .card-actions a {
+    flex: 1; text-align: center; text-decoration: none; font-size: .85rem; font-weight: 600;
+    padding: 8px; border-radius: 10px; border: 1px solid var(--border); color: var(--text); transition: .15s;
+  }
+  .card-actions a.open { background: var(--accent); color: #06121f; border-color: var(--accent); }
+  .card-actions a:hover { transform: translateY(-1px); filter: brightness(1.1); }
+
+  footer { text-align: center; color: var(--muted); padding: 48px 0 32px; font-size: .85rem; border-top: 1px solid var(--border); margin-top: 32px; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img class="avatar" src="https://github.com/krirk0137.png" alt="krirk0137" />
+    <h1>Krirk0137 <span class="grad">Hub</span></h1>
+    <p class="tagline">รวมเว็บแอปและโปรเจกต์ทั้งหมดไว้ในที่เดียว 🚀</p>
+    <div class="links">
+      <a class="btn primary" href="https://github.com/krirk0137" target="_blank" rel="noopener">
+        ⭐ GitHub Profile
+      </a>
+      <a class="btn" href="#apps">เว็บแอป</a>
+      <a class="btn" href="#repos">โปรเจกต์</a>
+    </div>
+  </header>
+
+  <section id="apps">
+    <div class="section-title">
+      <h2>🌐 เว็บแอป (ใช้งานได้ทันที)</h2>
+      <span>Live web apps</span>
+    </div>
+    <div class="grid">
+
+      <article class="card">
+        <div class="emoji">💸</div>
+        <h3>PromptPay QR Generator</h3>
+        <p>สร้าง QR Code รับเงินผ่าน PromptPay ด้วยเบอร์โทรหรือเลขบัตรประชาชน ทำงานในเบราว์เซอร์ ไม่ส่งข้อมูลออกนอกเครื่อง</p>
+        <div class="badges"><span class="badge live">● Live</span><span class="badge">HTML</span><span class="badge">PromptPay</span></div>
+        <div class="card-actions">
+          <a class="open" href="https://krirk0137.github.io/KrirkSpeedPromptPay/" target="_blank" rel="noopener">เปิดเว็บ</a>
+          <a href="https://github.com/krirk0137/KrirkSpeedPromptPay" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="emoji">📄</div>
+        <h3>Resume / Portfolio</h3>
+        <p>เว็บเรซูเม่สองภาษา (ไทย/อังกฤษ) ดีไซน์สะอาดตา สร้างด้วย Claude + Andrej Karpathy Skills</p>
+        <div class="badges"><span class="badge live">● Live</span><span class="badge">HTML</span><span class="badge">Bilingual</span></div>
+        <div class="card-actions">
+          <a class="open" href="https://krirk0137.github.io/Resume/" target="_blank" rel="noopener">เปิดเว็บ</a>
+          <a href="https://github.com/krirk0137/Resume" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="emoji">⚔️</div>
+        <h3>PoE2 Gearing Sheet</h3>
+        <p>ตารางไกด์อัปเกรดของ Path of Exile 2 — Spirit Walker Twister (Hardcore) แยกตาม level breakpoint และลำดับความสำคัญ</p>
+        <div class="badges"><span class="badge live">● Live</span><span class="badge">HTML</span><span class="badge">Gaming</span></div>
+        <div class="card-actions">
+          <a class="open" href="https://krirk0137.github.io/poe2_krirk_gear_change/" target="_blank" rel="noopener">เปิดเว็บ</a>
+          <a href="https://github.com/krirk0137/poe2_krirk_gear_change" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="repos">
+    <div class="section-title">
+      <h2>📦 โปรเจกต์อื่นๆ</h2>
+      <span>Repositories</span>
+    </div>
+    <div class="grid">
+
+      <article class="card">
+        <div class="emoji">⚛️</div>
+        <h3>React Udemy</h3>
+        <p>โปรเจกต์เรียน React และ Redux จากคอร์ส Udemy</p>
+        <div class="badges"><span class="badge">JavaScript</span><span class="badge">React</span></div>
+        <div class="card-actions">
+          <a href="https://github.com/krirk0137/React_Udemy_New" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="emoji">🐍</div>
+        <h3>Flask REST API</h3>
+        <p>สตัดดี้ Flask REST API + deploy บน Heroku จากคอร์ส Udemy</p>
+        <div class="badges"><span class="badge">Python</span><span class="badge">Flask</span></div>
+        <div class="card-actions">
+          <a href="https://github.com/krirk0137/test-store-rest-flask" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="emoji">🎓</div>
+        <h3>Git Demo</h3>
+        <p>โปรเจกต์เดโมสำหรับเทรนนิ่ง Git (1 ชั่วโมง)</p>
+        <div class="badges"><span class="badge">HTML</span><span class="badge">Training</span></div>
+        <div class="card-actions">
+          <a href="https://github.com/krirk0137/git-demo" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>สร้างด้วย ❤️ โดย <a href="https://github.com/krirk0137" target="_blank" rel="noopener">krirk0137</a> · Hosted on GitHub Pages</p>
+    <p style="margin-top:6px;">© <span id="year"></span> Krirk0137 Hub</p>
+  </footer>
+
+</div>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

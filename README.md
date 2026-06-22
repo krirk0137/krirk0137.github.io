@@ -1,2 +1,22 @@
 # krirk0137.github.io
-Krirk0137 Hub
+
+**Krirk0137 Hub** — หน้ารวมเว็บแอปและโปรเจกต์ทั้งหมดไว้ในที่เดียว
+
+🔗 Live: https://krirk0137.github.io
+
+## เว็บแอป (Live)
+
+| โปรเจกต์ | คำอธิบาย | ลิงก์ |
+|---|---|---|
+| 💸 PromptPay QR Generator | สร้าง QR Code รับเงินผ่าน PromptPay | [เปิด](https://krirk0137.github.io/KrirkSpeedPromptPay/) · [code](https://github.com/krirk0137/KrirkSpeedPromptPay) |
+| 📄 Resume / Portfolio | เว็บเรซูเม่สองภาษา | [เปิด](https://krirk0137.github.io/Resume/) · [code](https://github.com/krirk0137/Resume) |
+| ⚔️ PoE2 Gearing Sheet | ไกด์อัปเกรดของ Path of Exile 2 | [เปิด](https://krirk0137.github.io/poe2_krirk_gear_change/) · [code](https://github.com/krirk0137/poe2_krirk_gear_change) |
+
+## โปรเจกต์อื่นๆ
+
+- [React_Udemy_New](https://github.com/krirk0137/React_Udemy_New) — React + Redux (Udemy)
+- [test-store-rest-flask](https://github.com/krirk0137/test-store-rest-flask) — Flask REST API (Udemy)
+- [git-demo](https://github.com/krirk0137/git-demo) — Git training demo
+
+---
+หน้านี้คือ `index.html` ของ root site เพิ่ม/แก้การ์ดได้ในไฟล์นั้นโดยตรง
