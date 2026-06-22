@@ -12,6 +12,7 @@
 | 📄 Resume / Portfolio | เว็บเรซูเม่สองภาษา | [เปิด](https://krirk0137.github.io/Resume/) · [code](https://github.com/krirk0137/Resume) |
 | ⚔️ PoE2 Gearing Sheet | ไกด์อัปเกรดของ Path of Exile 2 | [เปิด](https://krirk0137.github.io/poe2_krirk_gear_change/) · [code](https://github.com/krirk0137/poe2_krirk_gear_change) |
 | 💊 Vitamin Routine | ตารางกินวิตามิน + เทียบคำแนะนำ AI | [เปิด](https://krirk0137.github.io/VitaminRoutine/) · [code](https://github.com/krirk0137/VitaminRoutine) |
+| 💰 Money Tracker | บันทึกรายรับ-รายจ่าย + แดชบอร์ด (Supabase/PWA) | [เปิด](https://krirk0137.github.io/TrackerMoneyKrirk/) · [code](https://github.com/krirk0137/TrackerMoneyKrirk) |
 
 ## โปรเจกต์อื่นๆ
 
