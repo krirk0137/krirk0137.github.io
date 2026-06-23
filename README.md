@@ -14,6 +14,8 @@
 | 💊 Vitamin Routine | ตารางกินวิตามิน + เทียบคำแนะนำ AI | [เปิด](https://krirk0137.github.io/VitaminRoutine/) · [code](https://github.com/krirk0137/VitaminRoutine) |
 | 💰 Money Tracker | บันทึกรายรับ-รายจ่าย + แดชบอร์ด (Supabase/PWA) | [เปิด](https://krirk0137.github.io/TrackerMoneyKrirk/) · [code](https://github.com/krirk0137/TrackerMoneyKrirk) |
 | 🏋️ Exercise Tracking | บันทึกการออกกำลังกาย + กราฟความก้าวหน้า (Supabase/PWA) | [เปิด](https://krirk0137.github.io/ExerciseTracking/) · [code](https://github.com/krirk0137/ExerciseTracking) |
+| 🖱️ Mouse Spec Compare | เทียบสเปคเมาส์เกมมิ่ง | [เปิด](https://krirk0137.github.io/MouseSpecCompare/) · [code](https://github.com/krirk0137/MouseSpecCompare) |
+| 📧 MailSweep | กรอง/ลบอีเมลจำนวนมากหลายบัญชี (🚧 design) | [code](https://github.com/krirk0137/MailManagement) |
 
 ## โปรเจกต์อื่นๆ
 
