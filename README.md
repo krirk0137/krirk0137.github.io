@@ -15,6 +15,7 @@
 | 💰 Money Tracker | บันทึกรายรับ-รายจ่าย + แดชบอร์ด (Supabase/PWA) | [เปิด](https://krirk0137.github.io/TrackerMoneyKrirk/) · [code](https://github.com/krirk0137/TrackerMoneyKrirk) |
 | 🏋️ Exercise Tracking | บันทึกการออกกำลังกาย + กราฟความก้าวหน้า (Supabase/PWA) | [เปิด](https://krirk0137.github.io/ExerciseTracking/) · [code](https://github.com/krirk0137/ExerciseTracking) |
 | 🖱️ Mouse Spec Compare | เทียบสเปคเมาส์เกมมิ่ง | [เปิด](https://krirk0137.github.io/MouseSpecCompare/) · [code](https://github.com/krirk0137/MouseSpecCompare) |
+| 🛹 Mouse Skate Guide | ไกด์เลือก mouse skate (OP1w 4K × SP-04) | [เปิด](https://krirk0137.github.io/MouseSkateGlassPad/) · [code](https://github.com/krirk0137/MouseSkateGlassPad) |
 | 📧 MailSweep | กรอง/ลบอีเมลจำนวนมากหลายบัญชี (🚧 design) | [code](https://github.com/krirk0137/MailManagement) |
 
 ## โปรเจกต์อื่นๆ
