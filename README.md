@@ -25,6 +25,8 @@
 
 | หน้า | คำอธิบาย | ลิงก์ |
 |---|---|---|
+| ⚙️ JS Framework Comparison | เทียบ Next.js/SvelteKit/Elysia/ASP.NET Core | [อ่าน](https://krirk0137.github.io/FrameWorkJSComparison/) · [code](https://github.com/krirk0137/FrameWorkJSComparison) |
+| 🀄 Tale of Immortal — Mods | สรุป mods 191 ตัว ควรเปิด/ปิด | [อ่าน](https://krirk0137.github.io/TaleOfImmortalModsDescriptionThai/) · [code](https://github.com/krirk0137/TaleOfImmortalModsDescriptionThai) |
 | 🏃 Walk / Run Biomechanics | ชีวกลศาสตร์ของก้าว (heel/midfoot/forefoot) | [อ่าน](https://krirk0137.github.io/GuideWalkRun/) · [code](https://github.com/krirk0137/GuideWalkRun) |
 | 🧦 Sock Picker | เทียบถุงเท้า EXCELLA Gen 3 vs 361 Degrees | [อ่าน](https://krirk0137.github.io/SockReccommendForStandAndWalk/) · [code](https://github.com/krirk0137/SockReccommendForStandAndWalk) |
 | 🌿 Git & GitHub Guide | คู่มือ Git/GitHub/Desktop ก่อนเริ่มงาน | [อ่าน](https://krirk0137.github.io/GitAndGitHubGuide/) · [code](https://github.com/krirk0137/GitAndGitHubGuide) |
