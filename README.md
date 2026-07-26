@@ -25,6 +25,7 @@
 
 | หน้า | คำอธิบาย | ลิงก์ |
 |---|---|---|
+| 🎬 CapCut × Shopee Video | คู่มือทำคลิปสั้นลง Shopee + หารายได้ | [อ่าน](https://krirk0137.github.io/CapcutShopeeCompareDetail/) · [code](https://github.com/krirk0137/CapcutShopeeCompareDetail) |
 | ⚙️ JS Framework Comparison | เทียบ Next.js/SvelteKit/Elysia/ASP.NET Core | [อ่าน](https://krirk0137.github.io/FrameWorkJSComparison/) · [code](https://github.com/krirk0137/FrameWorkJSComparison) |
 | 🀄 Tale of Immortal — Mods | สรุป mods 191 ตัว ควรเปิด/ปิด | [อ่าน](https://krirk0137.github.io/TaleOfImmortalModsDescriptionThai/) · [code](https://github.com/krirk0137/TaleOfImmortalModsDescriptionThai) |
 | 🏃 Walk / Run Biomechanics | ชีวกลศาสตร์ของก้าว (heel/midfoot/forefoot) | [อ่าน](https://krirk0137.github.io/GuideWalkRun/) · [code](https://github.com/krirk0137/GuideWalkRun) |
@@ -43,6 +44,8 @@
 
 ## โปรเจกต์อื่นๆ
 
+- [Undertale_by_krirk0137](https://github.com/krirk0137/Undertale_by_krirk0137) — แปลเกม Undertale เป็นไทย (patch/xdelta)
+- [Legend_Of_Mortal_Mod_Thai](https://github.com/krirk0137/Legend_Of_Mortal_Mod_Thai_by_krirk0137) — ม็อดแปลเกม Legend of Mortal จีน→ไทย
 - [React_Udemy_New](https://github.com/krirk0137/React_Udemy_New) — React + Redux (Udemy)
 - [test-store-rest-flask](https://github.com/krirk0137/test-store-rest-flask) — Flask REST API (Udemy)
 - [git-demo](https://github.com/krirk0137/git-demo) — Git training demo
